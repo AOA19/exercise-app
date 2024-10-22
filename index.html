@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercise API</title>
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1>Exercise API</h1>
+  <label>Choose from the below muscle groups:
+    <select name="muscles" id="muscleGroup">
+      <option value="" disabled>Please choose an option</option>
+      <option value="abdominals">Abdominals</option>
+      <option value="abductors">Abductors</option>
+      <option value="adductors">Adductors</option>
+      <option value="biceps">Biceps</option>
+      <option value="calves">Calves</option>
+      <option value="chest">Chest</option>
+      <option value="forearms">Forearms</option>
+      <option value="glutes">Glutes</option>
+      <option value="hamstrings">Hamstrings</option>
+      <option value="lats">lats</option>
+      <option value="lower_back">Lower Back</option>
+      <option value="middle_back">Middle Back</option>
+      <option value="neck">Neck</option>
+      <option value="quadriceps">Quadriceps</option>
+      <option value="traps">Traps</option>
+      <option value="triceps">Triceps</option>
+    </select>
+  </label>
+  <button id="exerciseBtn">Get Exercise</button>
+  <section id="exerciseContainer">
+  </section>
+  <script type="module" src="js/exercise.js"></script>
+</body>
+
+</html>
